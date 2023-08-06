@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0; 
+    font-family:'Times New Roman', Times, serif
+}
+
+:root {
+    --nav: rgb(0, 0, 0);
+    --accent: rgb(11, 168, 196);
+    --signature: rgb(14, 126, 255);
+    --white: white;
+}
+
+
+header {
+    color: var(--signature);
+    font-size: 150%;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--nav);
+    height: 70px;
+    padding-top: 20px;
+    z-index: 100;
+}
+
+header {
+    border-bottom: 10px solid var(--signature);
+    z-index: 100;
+}
+
+
+header img {
+    position: relative;
+    top: -25px;
+    min-width: auto;
+}
+
+li {
+    display: inline;
+    
+}
+
+li :hover {
+    color: var(--signature);
+}
+
+a {
+    color: var(--white);
+    padding-right: 55px;
+    transition: .5s
+    
+}
+
+.about {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.home {
+    max-width: 800px;
+}
+
+main h1 {
+    font-size: 50px;
+    font-weight: 800;
+
+}
+
+main h2 {
+    font-size: 30px;
+    color: var(--signature)
+}
+
+main p {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.work {
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    header figure {
+        display: none;
+    }
+
+    nav ul {
+        text-align: center;
+        padding: 0;
+        width: 105vw;      
+    }
+    main .text-right, .text-left img {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
