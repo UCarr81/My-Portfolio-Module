@@ -149,15 +149,33 @@ input[type=text], select, textarea {
     padding-bottom: 50px;
   }
 
+  footer {
+    background-color: black;
+    width: 100%;
+    padding-top: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: x-large;
 
+  }
 
+  footer .icon1 a {
+    color: #3b5998
+  }
+  footer .icon2 a {
+    color: 	#1DA1F2;
 
+  }
 
+  footer .icon3 a {
+    color: yellow;
+  }
 
-
-
-
-
+  footer .icon4 a {
+    color: #405DE6;
+  }
 
 @media screen and (max-width: 1200px) {
     header figure {
